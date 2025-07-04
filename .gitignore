@@ -1,0 +1,25 @@
+# IDE related
+.idea/
+.vscode/
+*.iml
+
+# Flutter/Dart related
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Build output
+build/
+
+# Firebase config (optional: bisa dimasukkan kalau tidak ingin share config ke publik)
+.firebaserc
+firebase.json
+assets/fcm_service_account.json
+
+# Cloud Functions (kalau menggunakan Firebase Functions & tidak ingin push)
+functions/
+
+# macOS / Linux / Windows junk
+.DS_Store

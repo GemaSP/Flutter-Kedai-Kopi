@@ -1,0 +1,113 @@
+[debug] [2025-04-16T18:17:45.940Z] ----------------------------------------------------------------------
+[debug] [2025-04-16T18:17:45.949Z] Command:       C:\laragon\bin\nodejs\node-v22.14.0-win-x64\node.exe C:\laragon\bin\nodejs\node-v22.14.0-win-x64\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions --debug
+[debug] [2025-04-16T18:17:45.951Z] CLI Version:   14.1.0
+[debug] [2025-04-16T18:17:45.951Z] Platform:      win32
+[debug] [2025-04-16T18:17:45.952Z] Node Version:  v22.14.0
+[debug] [2025-04-16T18:17:45.953Z] Time:          Thu Apr 17 2025 01:17:45 GMT+0700 (Western Indonesia Time)
+[debug] [2025-04-16T18:17:45.953Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-16T18:17:46.807Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-16T18:17:46.811Z] > authorizing via signed-in user (gesap02@gmail.com)
+[debug] [2025-04-16T18:17:46.814Z] [iam] checking project coffeshop-2876d for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2025-04-16T18:17:46.820Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:17:46.822Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:17:46.826Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions [none]
+[debug] [2025-04-16T18:17:46.828Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions x-goog-quota-user=projects/coffeshop-2876d
+[debug] [2025-04-16T18:17:46.832Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-04-16T18:17:48.139Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions 200
+[debug] [2025-04-16T18:17:48.140Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-04-16T18:17:48.145Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:17:48.146Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:17:48.149Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/coffeshop-2876d/serviceAccounts/coffeshop-2876d@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-04-16T18:17:48.150Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/coffeshop-2876d/serviceAccounts/coffeshop-2876d@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-04-16T18:17:49.608Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/coffeshop-2876d/serviceAccounts/coffeshop-2876d@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-04-16T18:17:49.609Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/coffeshop-2876d/serviceAccounts/coffeshop-2876d@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'coffeshop-2876d'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code 1
+[debug] [2025-04-16T18:20:17.478Z] ----------------------------------------------------------------------
+[debug] [2025-04-16T18:20:17.488Z] Command:       C:\laragon\bin\nodejs\node-v22.14.0-win-x64\node.exe C:\laragon\bin\nodejs\node-v22.14.0-win-x64\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions --debug
+[debug] [2025-04-16T18:20:17.490Z] CLI Version:   14.1.0
+[debug] [2025-04-16T18:20:17.491Z] Platform:      win32
+[debug] [2025-04-16T18:20:17.491Z] Node Version:  v22.14.0
+[debug] [2025-04-16T18:20:17.492Z] Time:          Thu Apr 17 2025 01:20:17 GMT+0700 (Western Indonesia Time)
+[debug] [2025-04-16T18:20:17.493Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-16T18:20:18.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-16T18:20:18.345Z] > authorizing via signed-in user (gesap02@gmail.com)
+[debug] [2025-04-16T18:20:18.346Z] [iam] checking project coffeshop-2876d for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2025-04-16T18:20:18.352Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:18.353Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:18.358Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions [none]
+[debug] [2025-04-16T18:20:18.362Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions x-goog-quota-user=projects/coffeshop-2876d
+[debug] [2025-04-16T18:20:18.364Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-04-16T18:20:19.766Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions 200
+[debug] [2025-04-16T18:20:19.767Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-04-16T18:20:19.773Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:19.774Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:19.777Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/coffeshop-2876d/serviceAccounts/coffeshop-2876d@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-04-16T18:20:19.779Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/coffeshop-2876d/serviceAccounts/coffeshop-2876d@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-04-16T18:20:21.278Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/coffeshop-2876d/serviceAccounts/coffeshop-2876d@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-04-16T18:20:21.279Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/coffeshop-2876d/serviceAccounts/coffeshop-2876d@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'coffeshop-2876d'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] +  functions: Finished running predeploy script. 
+[debug] [2025-04-16T18:20:24.825Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:24.825Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:24.828Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d [none]
+[debug] [2025-04-16T18:20:25.975Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d 200
+[debug] [2025-04-16T18:20:25.976Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/coffeshop-2876d {"projectNumber":"376562390271","projectId":"coffeshop-2876d","lifecycleState":"ACTIVE","name":"CoffeShop","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-04-02T04:40:06.042785Z"}
+[info] i  functions: preparing codebase default for deployment 
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[debug] [2025-04-16T18:20:25.988Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:25.989Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:25.991Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:25.993Z] Checked if tokens are valid: true, expires at: 1744830065469
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[debug] [2025-04-16T18:20:25.997Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:25.998Z] Checked if tokens are valid: true, expires at: 1744830065469
+[info] i  artifactregistry: ensuring required API artifactregistry.googleapis.com is enabled... 
+[debug] [2025-04-16T18:20:26.007Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:26.009Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:26.011Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-04-16T18:20:26.013Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/coffeshop-2876d
+[debug] [2025-04-16T18:20:26.021Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-04-16T18:20:26.023Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/coffeshop-2876d
+[debug] [2025-04-16T18:20:26.028Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudbuild.googleapis.com [none]
+[debug] [2025-04-16T18:20:26.029Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudbuild.googleapis.com x-goog-quota-user=projects/coffeshop-2876d
+[debug] [2025-04-16T18:20:26.037Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/artifactregistry.googleapis.com [none]
+[debug] [2025-04-16T18:20:26.038Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/artifactregistry.googleapis.com x-goog-quota-user=projects/coffeshop-2876d
+[debug] [2025-04-16T18:20:27.547Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/runtimeconfig.googleapis.com 200
+[debug] [2025-04-16T18:20:27.548Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-04-16T18:20:27.554Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudfunctions.googleapis.com 200
+[debug] [2025-04-16T18:20:27.555Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudfunctions.googleapis.com [omitted]
+[info] +  functions: required API cloudfunctions.googleapis.com is enabled 
+[debug] [2025-04-16T18:20:27.560Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudbuild.googleapis.com 200
+[debug] [2025-04-16T18:20:27.562Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudbuild.googleapis.com [omitted]
+[warn] !  functions: missing required API cloudbuild.googleapis.com. Enabling now... 
+[debug] [2025-04-16T18:20:27.570Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:27.570Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:27.572Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudbuild.googleapis.com:enable [none]
+[debug] [2025-04-16T18:20:27.574Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudbuild.googleapis.com:enable x-goog-quota-user=projects/coffeshop-2876d
+[debug] [2025-04-16T18:20:27.705Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/artifactregistry.googleapis.com 200
+[debug] [2025-04-16T18:20:27.707Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/artifactregistry.googleapis.com [omitted]
+[warn] !  artifactregistry: missing required API artifactregistry.googleapis.com. Enabling now... 
+[debug] [2025-04-16T18:20:27.718Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:27.719Z] Checked if tokens are valid: true, expires at: 1744830065469
+[debug] [2025-04-16T18:20:27.722Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/artifactregistry.googleapis.com:enable [none]
+[debug] [2025-04-16T18:20:27.722Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/artifactregistry.googleapis.com:enable x-goog-quota-user=projects/coffeshop-2876d
+[debug] [2025-04-16T18:20:28.935Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudbuild.googleapis.com:enable 400
+[debug] [2025-04-16T18:20:28.936Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/cloudbuild.googleapis.com:enable [omitted]
+[error] 
+[error] Error: Your project coffeshop-2876d must be on the Blaze (pay-as-you-go) plan to complete this command. Required API cloudbuild.googleapis.com can't be enabled until the upgrade is complete. To upgrade, visit the following URL:
+
+https://console.firebase.google.com/project/coffeshop-2876d/usage/details
+[debug] [2025-04-16T18:20:29.329Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/artifactregistry.googleapis.com:enable 400
+[debug] [2025-04-16T18:20:29.330Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/coffeshop-2876d/services/artifactregistry.googleapis.com:enable [omitted]
